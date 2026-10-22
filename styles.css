@@ -133,10 +133,6 @@ a:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
-.image-home {
-  padding-top: 146px;
-}
-
 .image-label {
   align-self: center;
   margin: -25px 0 22px 170px;
@@ -253,8 +249,7 @@ a:hover {
     gap: 16px;
   }
 
-  .home,
-  .image-home {
+  .home {
     min-height: calc(100vh - 56px);
     padding-top: 18vh;
   }
