@@ -239,6 +239,17 @@ a:hover {
   background: #357ae8;
 }
 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 18px 20px;
+  color: #5f6368;
+  background: #f2f2f2;
+  font-size: 12px;
+}
+
 @media (max-width: 600px) {
   .topbar {
     min-height: 56px;
