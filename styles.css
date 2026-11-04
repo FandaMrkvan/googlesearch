@@ -10,9 +10,6 @@ body {
 }
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   color: #202124;
   background: #fff;
   font-family: Arial, sans-serif;
@@ -46,7 +43,7 @@ a:hover {
 
 .home {
   display: flex;
-  flex: 1;
+  min-height: calc(100vh - 60px);
   align-items: center;
   flex-direction: column;
   padding: 146px 20px 40px;
@@ -164,29 +161,7 @@ a:hover {
 }
 
 .advanced-page {
-  flex: 1;
   padding: 24px 40px 60px;
-}
-
-.page-footer {
-  padding: 14px 28px;
-  border-top: 1px solid #ebebeb;
-  color: #5f6368;
-}
-
-.page-footer summary {
-  width: fit-content;
-  cursor: pointer;
-  font-size: 13px;
-}
-
-.page-footer blockquote {
-  max-width: 760px;
-  margin: 12px 0 2px;
-  padding-left: 14px;
-  border-left: 3px solid #dadce0;
-  color: #3c4043;
-  line-height: 1.6;
 }
 
 .advanced-page h1 {
@@ -275,6 +250,7 @@ a:hover {
   }
 
   .home {
+    min-height: calc(100vh - 56px);
     padding-top: 18vh;
   }
 
